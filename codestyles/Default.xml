@@ -7,6 +7,7 @@
     <option name="INDENT_INSIDE_CODE_BLOCK" value="2" />
     <option name="KEEP_STRUCTURES_IN_ONE_LINE" value="true" />
     <option name="KEEP_CASE_EXPRESSIONS_IN_ONE_LINE" value="true" />
+    <option name="KEEP_NESTED_NAMESPACES_IN_ONE_LINE" value="true" />
     <option name="FUNCTION_NON_TOP_AFTER_RETURN_TYPE_WRAP" value="0" />
     <option name="FUNCTION_TOP_AFTER_RETURN_TYPE_WRAP" value="0" />
     <option name="FUNCTION_PARAMETERS_WRAP" value="5" />
@@ -14,6 +15,7 @@
     <option name="TEMPLATE_CALL_ARGUMENTS_WRAP" value="5" />
     <option name="TEMPLATE_CALL_ARGUMENTS_ALIGN_MULTILINE" value="true" />
     <option name="CLASS_CONSTRUCTOR_INIT_LIST_WRAP" value="5" />
+    <option name="CLASS_CONSTRUCTOR_INIT_LIST_COMMA_ON_NEXT_LINE" value="true" />
     <option name="ALIGN_INIT_LIST_IN_COLUMNS" value="false" />
     <option name="SPACE_BEFORE_PROTOCOLS_BRACKETS" value="false" />
     <option name="KEEP_BLANK_LINES_BEFORE_END" value="1" />
@@ -24,7 +26,7 @@
       <value prefix="" style="SNAKE_CASE" suffix="" />
     </option>
     <option name="CLASSES_AND_STRUCTS_NAMING_CONVENTION">
-      <value prefix="" style="PASCAL_CASE" suffix="" />
+      <value prefix="C" style="PASCAL_CASE" suffix="" />
     </option>
     <option name="ENUMS_NAMING_CONVENTION">
       <value prefix="" style="PASCAL_CASE" suffix="" />
@@ -45,10 +47,10 @@
       <value prefix="" style="SNAKE_CASE" suffix="_" />
     </option>
     <option name="GLOBAL_FUNCTIONS_NAMING_CONVENTION">
-      <value prefix="" style="PASCAL_CASE" suffix="" />
+      <value prefix="g" style="PASCAL_CASE" suffix="" />
     </option>
     <option name="GLOBAL_VARIABLES_NAMING_CONVENTION">
-      <value prefix="" style="SNAKE_CASE" suffix="" />
+      <value prefix="g" style="SNAKE_CASE" suffix="" />
     </option>
     <option name="PARAMETERS_NAMING_CONVENTION">
       <value prefix="" style="SNAKE_CASE" suffix="" />
@@ -59,6 +61,10 @@
   </Objective-C>
   <Objective-C-extensions>
     <option name="TAG_PREFIX_OF_LINE_COMMENT" value="AT" />
+    <extensions>
+      <pair source="cpp" header="h" fileNamingConvention="LOWERCASE" />
+      <pair source="c" header="h" fileNamingConvention="NONE" />
+    </extensions>
   </Objective-C-extensions>
   <codeStyleSettings language="ObjectiveC">
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
@@ -66,9 +72,11 @@
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
     <option name="BLANK_LINES_BEFORE_IMPORTS" value="0" />
     <option name="BLANK_LINES_AFTER_IMPORTS" value="0" />
-    <option name="BLANK_LINES_AROUND_CLASS" value="0" />
+    <option name="BLANK_LINES_AROUND_FIELD" value="10" />
     <option name="BLANK_LINES_AROUND_METHOD" value="0" />
+    <option name="BLANK_LINES_BEFORE_METHOD_BODY" value="1" />
     <option name="BLANK_LINES_AROUND_METHOD_IN_INTERFACE" value="0" />
+    <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
     <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="false" />
     <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
     <option name="FOR_STATEMENT_WRAP" value="1" />
