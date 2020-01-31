@@ -2,6 +2,7 @@
   <component name="CPPToolchains" version="4">
     <toolchains detectedVersion="5">
       <toolchain name="esp32" toolSetKind="SYSTEM_UNIX_TOOLSET" customCCompilerPath="$USER_HOME$/coding/toolchain/xtensa-esp32-elf/bin/" customCXXCompilerPath="$USER_HOME$/coding/toolchain/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++" debuggerKind="BUNDLED_GDB" />
+      <toolchain name="esp32 local opt" toolSetKind="SYSTEM_UNIX_TOOLSET" customCCompilerPath="/opt/xtensa-esp32-elf/bin/" customCXXCompilerPath="/opt/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++" debuggerKind="BUNDLED_GDB" />
       <toolchain name="angepasste toolchauin" toolSetKind="SYSTEM_UNIX_TOOLSET" customCMakePath="/usr/bin/cmake" customMakePath="/usr/bin/make" customCCompilerPath="arm-angstrom-linux-gnueabi-gcc" customCXXCompilerPath="arm-angstrom-linux-gnueabi-g++" debuggerKind="CUSTOM_GDB" customGDBPath="/usr/bin/gdb-multiarch" />
       <toolchain name="default-ohne" toolSetKind="SYSTEM_UNIX_TOOLSET" debuggerKind="BUNDLED_GDB" />
     </toolchains>
